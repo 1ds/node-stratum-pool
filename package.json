@@ -1,6 +1,6 @@
 {
     "name": "stratum-pool",
-    "version": "0.1.9",
+    "version": "0.2.0",
     "description": "High performance stratum pool server in Node.js",
     "keywords": [
         "stratum",
@@ -29,14 +29,14 @@
         "url": "https://github.com/s-nomp/node-stratum-pool.git"
     },
     "dependencies": {
-        "async": "^2.6.1",
+        "async": "^3.0.1",
         "base58-native": "^0.1.4",
         "bignum": "^0.13.0",
         "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
         "equihashverify": "git+https://github.com/s-nomp/equihashverify.git",
         "verushash": "git+https://github.com/VerusCoin/verushash-node",
         "merkle-bitcoin": "^1.0.2",
-        "promise": "^8.0.1"
+        "promise": "^8.0.3"
     },
     "engines": {
         "node": ">=8.11"
